@@ -29,6 +29,11 @@ aside{
     color: #333;
     text-align: center;
 }
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }  
 aside img{
     width: 200px;
     height: auto;
