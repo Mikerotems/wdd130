@@ -1,3 +1,7 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -16,6 +20,8 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+
 }
 p {
     padding: 0;
@@ -28,6 +34,11 @@ aside{
     background-color: #eee;
     color: #333;
     text-align: center;
+}
+aside h2{
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 105px;
 }
 main {
     max-width: 1200px;
@@ -42,4 +53,12 @@ footer{
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+/*Class selectors*/
+.box{
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/ .1);
+    padding: 1rem;
+    background-color: #efcece;
+    color: #000;
 }
