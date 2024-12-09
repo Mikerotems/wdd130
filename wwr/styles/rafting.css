@@ -11,12 +11,41 @@
     box-sizing: border-box;
     color: #000;
   }
-  
+  nav{
+    text-align: right;
+  }
+  .navigation{
+    display: flex;
+  }
+  .navigation li {
+      flex: 1 1 100%;
+    }
+  .navigation a {
+      color: navy;
+      padding: 20px;
+      text-decoration: none;
+  }
+  .adventure{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .adventure img{
+    width: 200px;
+    height: 100px;
+  }
   h1, h2 {
     color:#d264b6;
     text-decoration: none; /*this removes underline from hyperlinks */
   }
-  
+  header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+  header img{
+    margin-left: 70px;
+  }
   p {
     color:#000;
   }
@@ -65,4 +94,36 @@
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+main{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 1rem;
+
+}
+h2{
+  text-align: center;
+  margin-left: 400px;
+}
+figure { 
+  display: inline-block; 
+  border: 1px solid #ccc; 
+  margin: 10px; 
+  padding: 10px; 
+  text-align: center;
+ } 
+ figcaption { 
+  color: #555;
+ }
+ figure img{
+  width: 200px;
+  height: 100px;
+ }
+.sociallinks{
+  display: flex
+}
+.sociallinks img{
+height: 20px;
+flex: 1 1 100%;
+
 }
