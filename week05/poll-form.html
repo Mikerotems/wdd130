@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="BLUE WATER RAFTING HOMEPAGE EXERCISE">
+    <meta name="author" content="Oluwarotimi Michael">
+    <title>
+        WDD 130 | HTML Form - User Poll
+    </title>
+</head>
+<body>
+<header>
+    <h1> WDD 130 | Oluwarotimi Michael | HTML Form-User Poll</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            <legend> Contact Information</legend>
+                <div class="form-item column2"><label for="fullmane"> Full Name:</label>
+                <input value="text" id="fullname" name="fullmane">
+            </div>
+            <div class="form-item column2">
+                <label for="useremail"> Email:</label>
+                <input value="email" id="useremail" name="useremail">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend> Questions</legend>
+            <div class="form-item column1"><label for="browser">What is your favourtite browser?</label>
+                <select id="browser" name="browser">
+                <option value="Chrome"> Chrome</option>
+                <option value="Firefox"> Moxilla Firefox</option>
+                <option value="edge"> Microsoft edge</option>
+                <option value="mises"> Mises</option>
+                </select></div>
+            <div class="form-item column1"><label for="pet"> Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet">
+            </div>
+            <label for="feedback">List the palces you have lived:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Oshogbo Osun, Sango Ogun, Odeda Abeokuta, Ikeja Lagos"></textarea>
+        </fieldset>
+        <button type="submit"> Submit Poll</button>
+    </form>
+</main>
+<footer>
+©2024 | HTML Form - User Poll Activity | Oluwarotimi Michael
+</footer>
+</body>
+</html>
