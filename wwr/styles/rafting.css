@@ -17,6 +17,7 @@ title{
 }
 nav{
   text-align: right;
+  margin-left: 20px;
 }
 .navigation{
   display: flex;
@@ -70,7 +71,7 @@ h1{
 article{
   position: absolute;
   background-color:  rgba(36, 22, 50, 0.7);
-  margin: 1px;
+  margin: 10px;
   width: 500px;
 }
 article p{
@@ -207,4 +208,91 @@ button:hover{
   background-color: rgb(129, 127, 36);
   color: white;
   font-weight: bold;
+}
+.trp h1{
+  background-color:#fff;
+  color:green;
+  font-size: larger;
+  text-align: center;
+  padding: 10px 0;
+  width: 310px;
+  margin-top: 5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cta {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-contact {
+  background-color: #ff4500;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.trips {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.trip {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  text-align: center;
+  position: relative;
+}
+.trip p{
+  color: #000;
+  text-align: center;
+  margin: 10px;
+}
+.trip img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.trip h2 {
+  color: #4CAF50;
+  position: absolute;
+  margin: 42% 50px;
+}
+
+.trip-table {
+  margin: 20px;
+  text-align: center;
+}
+.trip-table h2{
+  background-color:#ff4500;
+  color: #fff;
+  text-align: center;
+  width: 10%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
 }
